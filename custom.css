@@ -1,3 +1,29 @@
+@font-face {
+    font-family: 'cartograph_cfregular';
+    src: url('https://cdn.discordapp.com/attachments/810799100940255260/920580026745905183/cartographcf-regular-webfont.woff2') format('woff2'),
+         url('https://cdn.discordapp.com/attachments/810799100940255260/920580026980773908/cartographcf-regular-webfont.woff') format('woff');
+}
+
+a.pinned {
+    color: #31748f;
+    text-decoration: none;
+}
+
+a.pinned:hover {
+    color: #9ccfd8;
+    text-decoration: none;
+}
+
+a {
+    color: #31748f;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #9ccfd8;
+    text-decoration: none;
+}
+
 body {
     background-color: #191724;
     color: #e0def4;
@@ -57,12 +83,12 @@ body#collection code, body#post code, body#subpage code {
     color: #eb6f92;
 }
 
-body#post pre {
-    background-color: #1f1d2e;
-    color: #e0def4;
+pre {
+    background-color: #1f1d2e !important;
+    color: #e0def4 !important;
 }
 
-body#post pre code {
+pre code {
     color: #e0def4 !important;
 }
 
@@ -73,12 +99,12 @@ body#post pre code {
     color: #31748f;
 }
 
-body#post article time.dt-published, body#subpage article time.dt-published {
+article time.dt-published, body#subpage article time.dt-published {
     color: #6e6a86;
 }
 
 /* "Read more..." links */
-body#collection a.read-more {
+a.read-more {
     text-decoration: underline;
 }
 
@@ -87,6 +113,7 @@ article p a {
     color: #31748f !important;
     text-decoration: none;
 }
+
 article p a:hover {
     color: #9ccfd8 !important;
     text-decoration: none;
