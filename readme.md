@@ -1,6 +1,6 @@
 <p align="center">
     <img src="https://github.com/rose-pine/rose-pine-theme/raw/main/assets/icon.png" width="80" />
-    <h2 align="center">Rosé Pine for App</h2>
+    <h2 align="center">Rosé Pine for WriteFreely</h2>
 </p>
 
 <p align="center">All natural pine, faux fur and a bit of soho vibes for the classy minimalist</p>
@@ -13,23 +13,23 @@
 
 ## Usage
 
-1. Open App
-2. Under settings, import `rose-pine.theme`
-3. Select `Rosé Pine` from the themes dropdown
+1. Go to menu > customization
+2. Scroll down to Custom CSS
+3. Paste in the contents of `custom.css`
+4. Scroll to the bottom and click "Save changes"
 
 ## Gallery
 
-![Rosé Pine with App](assets/template.png)
+### As featured by default on https://blog.t1c.dev
+
+### Rosé Pine
+
+![Screenshot_2021-12-15-12-06-49_2560x1440](https://user-images.githubusercontent.com/44733677/146147987-29c97888-cac9-4076-b761-e60640ce91f2.png)
+
+![Screenshot_2021-12-15-12-09-46_2560x1440](https://user-images.githubusercontent.com/44733677/146148040-3f27b344-f786-4756-a848-5fe45c7b5a5d.png)
+
+
 
 ## Thanks to
 
-- [You, it's you!](https://github.com/<username>)
-
-## Style guide
-
-> Be sure to remove this section 😌
-
-- Lowercase meta files, eg. `readme.md`
-- Repo name should be the simplest version of the app name, eg. iterm instead of iTerm2
-- Format repo description as "Soho vibes for App"
-- Generate and upload social image via [Rosé Pine Images](https://rose-pine-images.vercel.app)
+- [ThatOneCalculator](https://t1c.dev)
