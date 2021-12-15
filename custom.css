@@ -1,0 +1,105 @@
+body {
+    background-color: #191724;
+    color: #e0def4;
+}
+
+hr {
+    background: #3a384a;
+}
+
+h1 {
+    color: #eb6f92 !important;
+}
+
+h2 {
+    color: #f6c177 !important;
+}
+
+h3 {
+    color: #ebbcba !important;
+}
+
+h4 {
+    color: #ebbcba !important;
+}
+
+h5 {
+    color: #c4a7e7 !important;
+}
+
+h6 {
+    color: #c4a7e7 !important;
+}
+
+* {
+    font-family: 'cartograph_cfregular';
+}
+
+#blog-title a { 
+    color: #e0def4;
+    background-color: #c4a7e7;
+}
+
+#blog-title a:hover { 
+    color: #9ccfd8;
+    background-color: #c4a7e7;
+}
+
+body#collection blockquote, body#post blockquote, body#subpage blockquote {
+    border-left: 4px solid #f6c177;
+    color: #c4a7e7;
+    display: inline-block;
+}
+
+body#collection code, body#post code, body#subpage code {
+    background-color: #26233a;
+    border: 1px solid #6e6a86;
+    color: #eb6f92;
+}
+
+body#post pre {
+    background-color: #1f1d2e;
+    color: #e0def4;
+}
+
+body#post pre code {
+    color: #e0def4 !important;
+}
+
+.post-title {
+    color: #ebbcba;
+}
+.post-title a.u-url:link, .post-title a.u-url:visited {
+    color: #31748f;
+}
+
+body#post article time.dt-published, body#subpage article time.dt-published {
+    color: #6e6a86;
+}
+
+/* "Read more..." links */
+body#collection a.read-more {
+    text-decoration: underline;
+}
+
+/* Links inside blog posts */
+article p a {
+    color: #31748f !important;
+    text-decoration: none;
+}
+article p a:hover {
+    color: #9ccfd8 !important;
+    text-decoration: none;
+}
+
+body footer nav {
+    color: #6e6a86;
+}
+
+body footer nav a, body footer ul a {
+    color: #31748f;
+}
+
+body footer nav a:hover, body footer ul a:hover {
+    color: #9ccfd8;
+}
