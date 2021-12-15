@@ -61,6 +61,10 @@ h6 {
     font-family: 'cartograph_cfregular';
 }
 
+header p.description {
+    color: #f6c177 !important;
+}
+
 #blog-title a { 
     color: #e0def4;
     background-color: #c4a7e7;
